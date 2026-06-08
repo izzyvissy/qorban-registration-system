@@ -4,23 +4,25 @@ A simple web-based CRUD system developed using Laravel for managing Qorban parti
 
 ## Team Members
 
-- Izzat 
-- Hammad 
-- Raden 
-- Muizz - 
-- Zhafri
-- Yazid
+*   MUHAMMAD AMIRUL IZZAT BIN MAHIDZAR - 2320619
+*   RADIN AYMAN NABIL BIN RADIN ARIFF TAQUIDDIN - 2322361
+*   MUHAMMAD MUIZZ BIN IZARUDDIN - 2422559
+*   MUHAMMAD ZHAFRI BIN NORHISHAM - 2412737
+*   HAMMAD - 2211673
+*   MUHAMMAD YAZID BIN MOHD YASIN - 2422887
 
 ## Technologies Used
 
 - Laravel
-- PHP
+- PHP (Requires Version 8.5.7)
 - MySQL
 - Bootstrap
 - Laragon
 - GitHub
 
 ## Project Setup
+
+**Important:** Ensure you are using PHP version 8.5.7 before starting.
 
 ### Clone Repository
 ```bash
@@ -60,6 +62,9 @@ php artisan migrate
 php artisan serve
 ```
 
+##API Testing Guide
+Because the backend is built as a RESTful API, you can test the CRUD (Create, Read, Update, Delete) operations before using the frontend. Use PowerShell commands with Invoke-RestMethod to test the API endpoints.
+
 ## Important Folders
 
 | Folder | Purpose |
@@ -87,14 +92,16 @@ Do not edit the same file simultaneously.
 
 ## Team Responsibilities
 
-- Backend: Name
-- Frontend: Name
-- Database: Name
-- Documentation: Name
+- Report Compilation & Team Leader: Muhammad Amirul Izzat
+- Class Diagram Designer: Radin Ayman Nabil
+- Laravel Setup & Environment Technician: Hammad
+- Backend Developer: Muhammad Yazid
+- Frontend Developer: Muhammad Muizz
+- Tester & Documentation Support: Muhammad Zhafri
 
 ## Current Progress
 
 - [x] Assignment 1 completed
-- [ ] Database migration
-- [ ] CRUD implementation
-- [ ] Frontend UI
+- [x] Database migration
+- [x] CRUD implementation
+- [x] Frontend UI
